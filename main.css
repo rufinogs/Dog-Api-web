@@ -110,11 +110,6 @@ section h2 {
 .pup-pic {
     width: 20rem;
     height: 20rem;
-
-    background-size: cover;
-    background-position: center;
-    background-size: cover;
-    background-position: center;
 }
 
 #pup-1 {
@@ -122,15 +117,27 @@ section h2 {
 }
 
 #pup-1 .pup-pic {
-    background-image: url('./images/pup_1.jpeg');
-}
+    background-image: url();
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-repeat: no-repeat;
+} 
 
 #pup-2 {
     border: 0.3rem solid #3E41A8;  /* purple */
 }
 
 #pup-2 .pup-pic {
-    background-image: url('./images/pup_2.webp');
+    background-image: url('');
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-repeat: no-repeat;
 }
 
 #pup-3 {
@@ -138,7 +145,13 @@ section h2 {
 }
 
 #pup-3 .pup-pic {
-    background-image: url('./images/cat_1.jpeg');
+    background-image: url('')
+    position:absolute;;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-repeat: no-repeat;
 }
 
 #pup-4 {
@@ -146,7 +159,13 @@ section h2 {
 }
 
 #pup-4 .pup-pic {
-    background-image: url('./images/pup_4.jpg');
+    background-image: url('');
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-repeat: no-repeat;
 }
 
 .pup-info {
