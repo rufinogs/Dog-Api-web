@@ -36,7 +36,6 @@ wh {
     list-style: none;
     padding-left: 0;
     font-size: 20px;
-    font-weight: bold;
     color: #88898B;
 }
 
@@ -81,16 +80,6 @@ button:hover {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    html2 {
-        width: 100%;
-        height: 100%;
-        font-family: "Fira Sans";
-        background-color: #F0ECEE;
-        background-image: url('../bulldog.jpg');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }    
     
     body {
         margin: 10px 60px;
