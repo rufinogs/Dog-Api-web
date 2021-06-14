@@ -71,8 +71,9 @@ button:hover {
       font-family: "Fira Sans";
       background-color: #F0ECEE;
       background-image: url('../images/dogback.jpg');
-      background-position: center;
+      background-position: center center;
       background-size: cover;
+      background-attachment: fixed;
       background-repeat: no-repeat;
   }
 

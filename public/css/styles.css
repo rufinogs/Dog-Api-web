@@ -154,6 +154,13 @@ button:hover {
         transition:800ms ease all;
     }
 
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+      }
+      
     .waves {
         position:relative;
         width: 130%;

@@ -8,7 +8,11 @@ const initialDog = {
   image: "",
   breed: {
     id: 0,
-    name: ""
+    name: "",
+    life_span: "",
+    temperament: "",
+    breed_group: "",
+    bred_for: ""
   }
 }
 
@@ -30,7 +34,7 @@ function App() {
       })
       .catch((error) => {
         console.log(error);
-        setError("Error al cargar un perro")
+        setError("Error loading the dog")
         setLoading(false);
       })
   }

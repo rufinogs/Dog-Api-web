@@ -17,7 +17,11 @@ const getDog = async (breedId) => {
     if(!breed) {
         breed = {
             id: 0,
-            name: 'random'
+            name: 'random',
+            life_span: 'random',
+            temperament: 'random',
+            breed_group: 'random',
+            bred_for: 'random'
         }
     }
 

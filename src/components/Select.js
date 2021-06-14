@@ -6,10 +6,18 @@ const initialBreeds = [
   {
     id: 1,
     name: "Boxer",
+    life_span: "10 - 15 years",
+    temperament: "Devoted, Fearless, Friendly, Cheerful, Energetic, Loyal, Playful, Confident, Intelligent, Bright, Brave, Calm",
+    breed_group: "Working",
+    bred_for: "Bull-baiting, guardian"
   },
   {
     id: 2,
-    name: "Husky",
+    name: "Golden Retriever",
+    life_span: "10 - 12 years",
+    temperament: "Intelligent, Kind, Reliable, Friendly, Trustworthy, Confident",
+    breed_group: "Sporting",
+    bred_for: "Retrieving"
   },
 ];
 
