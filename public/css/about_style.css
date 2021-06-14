@@ -35,7 +35,6 @@ wh {
     text-decoration: none;
     list-style: none;
     padding-left: 0;
-    margin-top: -10px;
     font-size: 20px;
     color: #88898B;
 }
@@ -76,7 +75,7 @@ button:hover {
         height: 100%;
         font-family: "Fira Sans";
         background-color: #F0ECEE;
-        background-image: url('../images/bulldog.jpg');
+        background-image: url('../images/dog2.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -197,7 +196,7 @@ button:hover {
 
     .main {
         padding-top: 120px;
-        width: 50%;
+        width: 40%;
     }
 
     .main p {

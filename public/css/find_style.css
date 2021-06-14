@@ -70,21 +70,11 @@ button:hover {
       height: 100%;
       font-family: "Fira Sans";
       background-color: #F0ECEE;
-      background-image: url('../dogback.jpg');
+      background-image: url('../images/dogback.jpg');
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
   }
-  html2 {
-      width: 100%;
-      height: 100%;
-      font-family: "Fira Sans";
-      background-color: #F0ECEE;
-      background-image: url('../dogback.png');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-  }    
 
   body {
       margin: 10px 60px;
