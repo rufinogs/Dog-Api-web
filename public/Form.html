@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet"href="css/estilos.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Adoption form</title>
+</head>
+<body>
+<form action="formulario.php" method="post">
+    <form action="validacionformulario.php" method="post">
+            <h1>Adoption form</h1>
+
+        <label for="">Name:</label>
+        <input type="text" name="name">
+        <label for="">Surname:</label>
+        <input type="text" name="Surname">
+        <label for="">Phone:</label>
+        <input type="text" name="telefono">
+        <label for="">Email:</label>
+        <input type="text" name="email">
+
+
+
+            Animal:<select>
+            <option>Dog</option>
+            <option>Cat</option>
+            <option>Other</option>
+        </select>
+
+
+        <label for="">Breed:</label>
+        <input type="text" name="breed">
+
+        <label for="">Name of the pet:</label>
+        <input type="text" name="name">
+
+
+        <label for="">Date:</label>
+        <input type="date" id="start" name="trip-start"
+               value="2021-06-15"
+               min="2000-01-01" max="2050-12-31">
+
+        Other specifications:
+        <textarea name="message"> </textarea> <br/><br/>
+
+        <p>  <button type="submit">Send!</button>
+    </form>
+
+</body>
+</html>
