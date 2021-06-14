@@ -16,6 +16,11 @@ html {
     text-align: left;
     margin-top: 10px;  
   }
+
+  wh {
+    font-style: normal;
+    color: #000000;
+  }
   
   h3 {
     font-size: 24px;
@@ -70,7 +75,7 @@ html {
         height: 100%;
         font-family: "Fira Sans";
         background-color: #F0ECEE;
-        background-image: url('../images/bulldog.jpg');
+        background-image: url('../images/dog5.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -125,6 +130,7 @@ html {
         height: 40px;
         line-height: 42px;
         padding: 0;
+        margin-left: 310px;
         border: none;
         background: #FF4850;
         background: linear-gradient(0deg, #FF4850 0%, #FF4850 100%);
@@ -134,74 +140,6 @@ html {
         background: transparent;
         box-shadow:none;
     }
-    .btn-5:before,
-    .btn-5:after{
-        content:'';
-        position:absolute;
-        top:0;
-        right:0;
-        height:2px;
-        width:0;
-        background: #FF4850;
-        box-shadow:
-        -1px -1px 5px 0px #fff,
-        7px 7px 20px 0px #0003,
-        4px 4px 5px 0px #0002;
-        transition:400ms ease all;
-    }
-    .btn-5:after{
-        right:inherit;
-        top:inherit;
-        left:0;
-        bottom:0;
-    }
-    .btn-5:hover:before,
-    .btn-5:hover:after{
-        width:100%;
-        transition:800ms ease all;
-    }
-  
-    .waves {
-        position:relative;
-        width: 120%;
-        height:40vh;
-        margin-bottom:-7px; /*Fix for safari gap*/
-        margin-left: -300px;
-        min-height:100px;
-        max-height:1900px;
-      }
-  
-    
-    /* Animation */
-  
-    .parallax > use {
-        animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
-    }
-    .parallax > use:nth-child(1) {
-        animation-delay: -2s;
-        animation-duration: 7s;
-    }
-    .parallax > use:nth-child(2) {
-        animation-delay: -3s;
-        animation-duration: 10s;
-    }
-    .parallax > use:nth-child(3) {
-        animation-delay: -4s;
-        animation-duration: 13s;
-    }
-    .parallax > use:nth-child(4) {
-        animation-delay: -5s;
-        animation-duration: 20s;
-    }
-    @keyframes move-forever {
-        0% {
-        transform: translate3d(-90px,0,0);
-        }
-        100% { 
-        transform: translate3d(85px,0,0);
-        }
-    }
-  
     .main {
         padding-top: 120px;
         width: 50%;
@@ -215,15 +153,15 @@ html {
         padding: 10px 70px;
     }
     /* Add padding to containers */
-.container {
-    padding: 16px;
-  }
+    .container {
+      padding: 16px;
+    }
   
   /* Full-width input fields */
   input[type=text], input[type=password] {
-    width: 15%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
+    width: 35%;
+    padding: 25px;
+    margin: 0px 0 5px 60px;
     display: inline-block;
     border: none;
     background: #f1f1f1;
