@@ -156,7 +156,7 @@ button:hover {
 
     .waves {
         position:relative;
-        width: 120%;
+        width: 130%;
         height:40vh;
         margin-bottom:-7px; /*Fix for safari gap*/
         margin-left: -300px;
