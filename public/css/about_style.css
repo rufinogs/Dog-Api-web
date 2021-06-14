@@ -1,18 +1,15 @@
 html {
     font-family: "Fira Sans";
     background-color: #F0ECEE;
-    margin: 0;
-    padding: 0;
 }
 
 .flex {
-    display: flex;
     flex-flow: column wrap;
 }
 
 h1{
     font-size: 44px;
-    font-family: "Fira Sans";
+    font-family: "Fira sans";
     text-align: center;
     margin-top: 50px;  
 }
@@ -33,10 +30,8 @@ wh {
 
 .nav ul, li, a {
     text-decoration: none;
-    list-style: none;
-    padding-left: 0;
     font-size: 20px;
-    color: #88898B;
+    color: #000000;
 }
 
 a:hover {
@@ -45,10 +40,8 @@ a:hover {
 
 button {
     background-color: #FF4850;
-    border: none;
     font-family: "Fira Sans";
     padding: 10px;
-    border-radius: 5px;
     width: 100%;
     color: #F0ECEE;
 }
@@ -154,16 +147,6 @@ button:hover {
         transition:800ms ease all;
     }
 
-    .waves {
-        position:relative;
-        width: 120%;
-        height:40vh;
-        margin-bottom:-7px; /*Fix for safari gap*/
-        margin-left: -300px;
-        min-height:100px;
-        max-height:1900px;
-      }
-
     .main {
         padding-top: 50px;
         width: 40%;
@@ -172,9 +155,10 @@ button:hover {
     .main p {
         font-size: 18px;
         text-align: justify;
+        font-style: normal;
     }
 
     .findout {
-        padding: 10px 70px;
+        padding: 0px 70px;
     }
 }

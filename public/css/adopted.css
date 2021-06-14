@@ -36,7 +36,7 @@ html {
     list-style: none;
     padding-left: 0;
     font-size: 20px;
-    color: #88898B;
+    color: #000000;
   }
   
   a:hover {
@@ -130,7 +130,7 @@ html {
         height: 40px;
         line-height: 42px;
         padding: 0;
-        margin-left: 310px;
+        margin-left: 300px;
         border: none;
         background: #FF4850;
         background: linear-gradient(0deg, #FF4850 0%, #FF4850 100%);
@@ -140,6 +140,7 @@ html {
         background: transparent;
         box-shadow:none;
     }
+
     .main {
         padding-top: 120px;
         width: 50%;
