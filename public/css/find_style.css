@@ -116,6 +116,13 @@ button:hover {
       margin-left: 10px;
   }
 
+  .AdoptMe{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 10px;
+  }
+
   /* LAYOUT BUTTON */
   .btn-5 {
       width: 130px;
