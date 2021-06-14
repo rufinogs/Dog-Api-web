@@ -26,11 +26,17 @@ em {
     color: #FF4850;
 }
 
+wh {
+    font-style: normal;
+    color: #000000;
+}
+
 .nav ul, li, a {
     text-decoration: none;
     list-style: none;
     padding-left: 0;
     font-size: 20px;
+    font-weight: bold;
     color: #88898B;
 }
 
@@ -205,7 +211,8 @@ button:hover {
     }
 
     .main p {
-        font-size: 25px;
+        font-size: 18px;
+        text-align: justify;
     }
 
     .findout {
