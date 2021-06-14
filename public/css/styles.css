@@ -64,8 +64,9 @@ button:hover {
         font-family: "Fira Sans";
         background-color: #F0ECEE;
         background-image: url('../bulldog.jpg');
-        background-position: fixed;
+        background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
     body {
